@@ -1,19 +1,19 @@
 # Feel free to disable non-critical HA parts during devel by commenting lines out
 # Generated in hadk by executing: rpm/dhd/helpers/add_new_device.sh
 
-Description: Pattern with packages for Z01R HW Adaptation
-Name: jolla-hw-adaptation-Z01R
+Description: Pattern with packages for 5z HW Adaptation
+Name: jolla-hw-adaptation-5z
 Requires:
-- droid-hal-Z01R
-- droid-hal-Z01R-img-boot
-- droid-hal-Z01R-kernel-modules
-- droid-config-Z01R-sailfish
-- droid-config-Z01R-pulseaudio-settings
-- droid-config-Z01R-policy-settings
-- droid-config-Z01R-preinit-plugin
-- droid-config-Z01R-flashing
-- droid-config-Z01R-bluez5
-- droid-hal-version-Z01R
+- droid-hal-5z
+- droid-hal-5z-img-boot
+- droid-hal-5z-kernel-modules
+- droid-config-5z-sailfish
+- droid-config-5z-pulseaudio-settings
+- droid-config-5z-policy-settings
+- droid-config-5z-preinit-plugin
+- droid-config-5z-flashing
+- droid-config-5z-bluez5
+- droid-hal-version-5z
 
 # Hybris packages
 - libhybris-libEGL
@@ -81,5 +81,5 @@ Requires:
 # For devices with SD Card
 #- sd-utils
 
-Summary: Jolla HW Adaptation Z01R
+Summary: Jolla HW Adaptation 5z
 
