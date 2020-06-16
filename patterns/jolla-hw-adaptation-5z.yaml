@@ -31,6 +31,7 @@ Requires:
 - qt5-plugin-generic-evdev
 
 - pulseaudio-modules-droid
+- pulseaudio-modules-droid-glue
 # for audio recording to work:
 - qt5-qtmultimedia-plugin-mediaservice-gstmediacapture
 
@@ -46,7 +47,7 @@ Requires:
 - gstreamer1.0-plugins-bad
 - nemo-gstreamer1.0-interfaces
 # For devices with droidmedia and gst-droid built, see HADK pdf for more information
-#- gstreamer1.0-droid
+- gstreamer1.0-droid
 
 # This is needed for notification LEDs
 - mce-plugin-libhybris
@@ -68,8 +69,10 @@ Requires:
 # hammerhead, grouper, and maguro use this in scripts, so include for all
 - rfkill
 
-# enable device lock and allow to select untrusted software
-- jolla-devicelock-daemon-encsfa
+# fingerprint scanner
+- sailfish-devicelock-fpd
+- sailfish-fpd-community
+- droid-biometry-fp
 
 # For GPS
 - geoclue-provider-hybris
@@ -79,7 +82,19 @@ Requires:
 #- jolla-mediaplayer-radio
 
 # For devices with SD Card
-#- sd-utils
+- sd-utils
+
+# Telephony
+- ofono-ril-binder-plugin
+
+# Bluetooth
+- bluebinder
+
+# NFC
+- nfcd-binder-plugin
+
+# Torch shortcut
+- jolla-settings-system-flashlight
 
 Summary: Jolla HW Adaptation 5z
 
