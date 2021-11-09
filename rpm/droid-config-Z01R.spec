@@ -4,9 +4,6 @@
 %define device Z01R
 %define vendor asus
 
-%define rpm_device 5z
-%define rpm_vendor asus
-
 %define vendor_pretty ASUS
 %define device_pretty Zenfone 5z
 
@@ -17,6 +14,8 @@
 
 Provides: ofono-configs
 Obsoletes: ofono-configs-mer
+
+%define android_version_major 10
 
 %include droid-configs-device/droid-configs.inc
 %include patterns/patterns-sailfish-device-adaptation-5z.inc
