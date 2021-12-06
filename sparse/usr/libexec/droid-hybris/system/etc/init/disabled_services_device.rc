@@ -1,0 +1,10 @@
+service tombstoned tombstoned_HYBRIS_DISABLED
+
+service time_daemon /vendor/bin/time_daemon_HYBRIS_DISABLED
+    override
+
+service gatekeeperd gatekeeperd_HYBRIS_DISABLED
+
+service vendor.ipacm vendor.ipacm_HYBRIS_DISABLED
+
+service keystore /system/bin/keystore_HYBRIS_DISABLED
