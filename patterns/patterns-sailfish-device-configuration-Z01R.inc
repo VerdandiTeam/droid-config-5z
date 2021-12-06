@@ -1,7 +1,7 @@
-%package -n patterns-sailfish-device-configuration-5z
-Summary: Jolla Configuration 5z
-Requires: patterns-sailfish-device-configuration-common-5z
-Requires: patterns-sailfish-device-adaptation-5z
+%package -n patterns-sailfish-device-configuration-Z01R
+Summary: Jolla Configuration Z01R
+Requires: patterns-sailfish-device-configuration-common-Z01R
+Requires: patterns-sailfish-device-adaptation-Z01R
 
 # For devices with cellular modem. Those without one, please comment out:
 Requires: patterns-sailfish-cellular-apps
@@ -32,7 +32,7 @@ Requires: geoclue-provider-mlsdb
 # to improve camera startup times and the like
 Requires: mapplauncherd-booster-silica-qt5-media
 
-%description -n patterns-sailfish-device-configuration-5z
-Pattern with packages for 5z configurations
+%description -n patterns-sailfish-device-configuration-Z01R
+Pattern with packages for Z01R configurations
 
-%files -n patterns-sailfish-device-configuration-5z
+%files -n patterns-sailfish-device-configuration-Z01R
