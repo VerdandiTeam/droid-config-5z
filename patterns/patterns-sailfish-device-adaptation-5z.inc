@@ -1,15 +1,15 @@
-%package -n patterns-sailfish-device-adaptation-Z01R
-Summary: Jolla HW Adaptation Z01R
-Requires: droid-hal-Z01R
-Requires: droid-hal-Z01R-img-boot
-Requires: droid-hal-Z01R-kernel-modules
-Requires: droid-config-Z01R-sailfish
-Requires: droid-config-Z01R-pulseaudio-settings
-Requires: droid-config-Z01R-policy-settings
-Requires: droid-config-Z01R-preinit-plugin
-Requires: droid-config-Z01R-flashing
-Requires: droid-config-Z01R-bluez5
-Requires: droid-hal-version-Z01R
+%package -n patterns-sailfish-device-adaptation-5z
+Summary: Jolla HW Adaptation 5z
+Requires: droid-hal-5z
+Requires: droid-hal-5z-img-boot
+Requires: droid-hal-5z-kernel-modules
+Requires: droid-config-5z-sailfish
+Requires: droid-config-5z-pulseaudio-settings
+Requires: droid-config-5z-policy-settings
+Requires: droid-config-5z-preinit-plugin
+Requires: droid-config-5z-flashing
+Requires: droid-config-5z-bluez5
+Requires: droid-hal-version-5z
 
 # Hybris packages
 Requires: libhybris-libEGL
@@ -94,7 +94,7 @@ Requires: nfcd-binder-plugin
 # Torch shortcut
 Requires: jolla-settings-system-flashlight
 
-%description -n patterns-sailfish-device-adaptation-Z01R
-Pattern with packages for Z01R HW Adaptation
+%description -n patterns-sailfish-device-adaptation-5z
+Pattern with packages for 5z HW Adaptation
 
-%files -n patterns-sailfish-device-adaptation-Z01R
+%files -n patterns-sailfish-device-adaptation-5z

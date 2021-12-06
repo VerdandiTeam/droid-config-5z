@@ -7,6 +7,9 @@
 %define vendor_pretty ASUS
 %define device_pretty Zenfone 5z
 
+%define rpm_device 5z
+%define rpm_vendor asus
+
 # Community HW adaptations need this
 %define community_adaptation 1
 
@@ -18,5 +21,5 @@ Obsoletes: ofono-configs-mer
 %define android_version_major 10
 
 %include droid-configs-device/droid-configs.inc
-%include patterns/patterns-sailfish-device-adaptation-Z01R.inc
-%include patterns/patterns-sailfish-device-configuration-Z01R.inc
+%include patterns/patterns-sailfish-device-adaptation-5z.inc
+%include patterns/patterns-sailfish-device-configuration-5z.inc
